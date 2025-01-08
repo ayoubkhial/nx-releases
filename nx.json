@@ -68,6 +68,9 @@
     "projectsRelationship": "independent",
     "changelog": {
       "projectChangelogs": true
+    },
+    "version": {
+      "conventionalCommits": true
     }
   }
 }
