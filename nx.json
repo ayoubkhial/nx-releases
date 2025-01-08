@@ -67,9 +67,12 @@
     "projects": ["packages/*"],
     "projectsRelationship": "independent",
     "changelog": {
-      "projectChangelogs": true
+      "workspaceChangelog": {
+        "createRelease": "github"
+      }
     },
     "version": {
+      "preVersionCommand": "npx nx run-many -t build",
       "conventionalCommits": true
     }
   }
