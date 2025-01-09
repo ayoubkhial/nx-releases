@@ -1,0 +1,29 @@
+{
+  "name": "everything",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/everything/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:package",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "packages/everything/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "packages/everything/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "packages/everything/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}

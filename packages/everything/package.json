@@ -1,0 +1,13 @@
+{
+  "name": "@org-ayb/everything",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0"
+  },
+  "dependencies": {
+    "@org-ayb/button": "^0.8.0",
+    "@org-ayb/tooltip": "^0.8.0"
+  },
+  "sideEffects": false
+}
