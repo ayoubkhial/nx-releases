@@ -1,3 +1,13 @@
+## 0.5.1 (2025-01-09)
+
+### 🩹 Fixes
+
+- global target default for publishing ([50ab963](https://github.com/ayoubkhial/nx-releases/commit/50ab963))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.5.0 (2025-01-09)
 
 ### 🚀 Features
