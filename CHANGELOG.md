@@ -1,3 +1,13 @@
+## 0.2.0 (2025-01-09)
+
+### 🚀 Features
+
+- publish on demand ([961480a](https://github.com/ayoubkhial/nx-releases/commit/961480a))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.1.3 (2025-01-09)
 
 ### 🩹 Fixes
