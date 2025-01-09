@@ -1,3 +1,13 @@
+## 0.4.0 (2025-01-09)
+
+### 🚀 Features
+
+- btn ([e46c47f](https://github.com/ayoubkhial/nx-releases/commit/e46c47f))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.3.0 (2025-01-09)
 
 ### 🚀 Features
