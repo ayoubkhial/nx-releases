@@ -1,3 +1,13 @@
+## 0.8.2 (2025-01-09)
+
+### 🩹 Fixes
+
+- change target tag pattern ([9ff3d3b](https://github.com/ayoubkhial/nx-releases/commit/9ff3d3b))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.8.1 (2025-01-09)
 
 ### 🩹 Fixes

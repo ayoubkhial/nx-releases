@@ -1,6 +1,6 @@
 {
   "name": "@org-ayb/everything",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "peerDependencies": {
     "@angular/common": "^19.0.0",
     "@angular/core": "^19.0.0",
