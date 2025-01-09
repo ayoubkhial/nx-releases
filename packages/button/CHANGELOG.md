@@ -1,3 +1,17 @@
+## 0.10.0 (2025-01-09)
+
+### 🚀 Features
+
+- button only ([c95cbf3](https://github.com/ayoubkhial/nx-releases/commit/c95cbf3))
+
+### 🩹 Fixes
+
+- both ([92f4869](https://github.com/ayoubkhial/nx-releases/commit/92f4869))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.9.0 (2025-01-09)
 
 ### 🚀 Features

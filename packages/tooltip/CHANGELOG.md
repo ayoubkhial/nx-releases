@@ -1,3 +1,14 @@
+## 0.7.1 (2025-01-09)
+
+### 🩹 Fixes
+
+- both ([92f4869](https://github.com/ayoubkhial/nx-releases/commit/92f4869))
+- tooltip only ([13b035f](https://github.com/ayoubkhial/nx-releases/commit/13b035f))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.7.0 (2025-01-09)
 
 ### 🚀 Features
