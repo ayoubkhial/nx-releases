@@ -1,3 +1,13 @@
+## 0.6.0 (2025-01-09)
+
+### 🚀 Features
+
+- global access public for packages ([52084fd](https://github.com/ayoubkhial/nx-releases/commit/52084fd))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.5.2 (2025-01-09)
 
 ### 🩹 Fixes
