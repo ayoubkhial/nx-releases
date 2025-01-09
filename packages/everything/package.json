@@ -7,11 +7,9 @@
   },
   "peerDependencies": {
     "@angular/common": "^19.0.0",
-    "@angular/core": "^19.0.0"
-  },
-  "dependencies": {
-    "@org-ayb2/button": "0.1.1",
-    "@org-ayb2/tooltip": "0.1.1"
+    "@angular/core": "^19.0.0",
+    "@org-ayb2/button": "^0.1.2",
+    "@org-ayb2/tooltip": "^0.1.2"
   },
   "sideEffects": false
 }
