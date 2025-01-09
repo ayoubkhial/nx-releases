@@ -1,3 +1,13 @@
+## 0.7.0 (2025-01-09)
+
+### 🚀 Features
+
+- publish test ([9859bc2](https://github.com/ayoubkhial/nx-releases/commit/9859bc2))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.6.0 (2025-01-09)
 
 ### 🚀 Features
