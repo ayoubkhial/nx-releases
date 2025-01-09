@@ -12,5 +12,6 @@ export class ButtonComponent {
 
   ngOnInit() {
     console.log('Button works!!242323');
+    console.log('title', this.title);
   }
 }

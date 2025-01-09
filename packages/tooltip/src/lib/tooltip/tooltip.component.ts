@@ -9,4 +9,5 @@ import { CommonModule } from '@angular/common';
 })
 export class TooltipComponent {
   title = 'hello2';
+  a = 'b';
 }
