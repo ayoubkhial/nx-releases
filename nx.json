@@ -50,7 +50,7 @@
     "nx-release-publish": {
       "dependsOn": ["build"],
       "options": {
-        "packageRoot": "dist/libs/{projectName}"
+        "packageRoot": "dist/packages/{projectName}"
       }
     }
   },
