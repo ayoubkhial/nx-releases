@@ -72,9 +72,8 @@
   },
   "release": {
     "projects": ["packages/*"],
-    "projectsRelationship": "independent",
     "changelog": {
-      "projectChangelogs": {
+      "workspaceChangelog": {
         "createRelease": "github"
       }
     },
