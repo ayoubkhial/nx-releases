@@ -1,3 +1,14 @@
+## 0.1.3 (2025-01-09)
+
+### 🩹 Fixes
+
+- aaaaaaa ([e32e5fd](https://github.com/ayoubkhial/nx-releases/commit/e32e5fd))
+- dzde ([c99e4b3](https://github.com/ayoubkhial/nx-releases/commit/c99e4b3))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.1.2 (2025-01-09)
 
 ### 🩹 Fixes
