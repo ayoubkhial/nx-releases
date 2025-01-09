@@ -1,3 +1,13 @@
+## 0.4.0 (2025-01-09)
+
+### 🚀 Features
+
+- add verbose ([7420e0b](https://github.com/ayoubkhial/nx-releases/commit/7420e0b))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.3.2 (2025-01-09)
 
 ### 🩹 Fixes
