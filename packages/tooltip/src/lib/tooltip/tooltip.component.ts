@@ -8,5 +8,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './tooltip.component.css',
 })
 export class TooltipComponent {
-  title = 'hello';
+  title = 'hello2';
 }
