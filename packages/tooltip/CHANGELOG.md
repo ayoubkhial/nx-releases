@@ -1,3 +1,13 @@
+## 0.3.2 (2025-01-09)
+
+### 🩹 Fixes
+
+- package.json ([5ecb0a5](https://github.com/ayoubkhial/nx-releases/commit/5ecb0a5))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.3.1 (2025-01-09)
 
 ### 🩹 Fixes
