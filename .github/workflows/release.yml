@@ -38,6 +38,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git config user.email "ayoubkhial@pm.me"
+          git config user.email "ayoubcodez@gmail.com"
           git config user.name "Ayoub Khial2"
-          npx nx release --skip-publish
+          npx nx release --skip-publish --verbose
