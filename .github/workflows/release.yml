@@ -37,4 +37,7 @@ jobs:
       - name: Run nx release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npx nx release --skip-publish
+        run: |
+          git config user.email "ayoubkhial@pm.me"
+          git config user.name "Ayoub Khial2"
+          npx nx release --skip-publish
