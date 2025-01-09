@@ -32,7 +32,7 @@ jobs:
         shell: bash
 
       - name: Build affected libs
-        run: npx nx affected -t build --all
+        run: npx nx affected run-many --targets=build
 
       - name: Run nx release
         env:
