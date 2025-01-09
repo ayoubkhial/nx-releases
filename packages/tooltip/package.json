@@ -1,7 +1,10 @@
 {
   "name": "@org-ayb/tooltip",
   "version": "0.3.1",
-  "url": "https://github.com/ayoubkhial/nx-releases",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayoubkhial/nx-releases.git"
+  },
   "peerDependencies": {
     "@angular/common": "^19.0.0",
     "@angular/core": "^19.0.0"
