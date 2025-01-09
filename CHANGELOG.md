@@ -1,3 +1,13 @@
+## 0.1.1 (2025-01-09)
+
+### 🩹 Fixes
+
+- aaaaaaaaa ([7bc741b](https://github.com/ayoubkhial/nx-releases/commit/7bc741b))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.1.0 (2025-01-09)
 
 ### 🚀 Features
