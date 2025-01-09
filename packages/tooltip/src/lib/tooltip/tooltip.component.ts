@@ -7,4 +7,6 @@ import { CommonModule } from '@angular/common';
   templateUrl: './tooltip.component.html',
   styleUrl: './tooltip.component.css',
 })
-export class TooltipComponent {}
+export class TooltipComponent {
+  title = 'hello';
+}
