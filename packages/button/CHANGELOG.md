@@ -1,3 +1,13 @@
+## 0.7.2 (2025-01-09)
+
+### 🩹 Fixes
+
+- correct dist folder location ([4d45c17](https://github.com/ayoubkhial/nx-releases/commit/4d45c17))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.7.1 (2025-01-09)
 
 ### 🩹 Fixes
