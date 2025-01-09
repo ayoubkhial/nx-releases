@@ -8,5 +8,9 @@ import { CommonModule } from '@angular/common';
   styleUrl: './button.component.css',
 })
 export class ButtonComponent {
-  title = 'hello';
+  title = 'hello !';
+
+  ngOnInit() {
+    console.log('Button works!');
+  }
 }
