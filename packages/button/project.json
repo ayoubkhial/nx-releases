@@ -24,12 +24,6 @@
     },
     "lint": {
       "executor": "@nx/eslint:lint"
-    },
-    "nx-release-publish": {
-      "dependsOn": ["build"],
-      "options": {
-        "packageRoot": "{workspaceRoot}/dist/{projectRoot}"
-      }
     }
   }
 }
