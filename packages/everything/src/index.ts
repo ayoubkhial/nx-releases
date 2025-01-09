@@ -1,2 +1,2 @@
-export * from '@org-ayb/button';
-export * from '@org-ayb/tooltip';
+export * from '@org-ayb2/button';
+export * from '@org-ayb2/tooltip';

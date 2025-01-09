@@ -15,9 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@org-ayb/button": ["packages/button/src/index.ts"],
-      "@org-ayb/everything": ["packages/everything/src/index.ts"],
-      "@org-ayb/tooltip": ["packages/tooltip/src/index.ts"]
+      "@org-ayb2/button": ["packages/button/src/index.ts"],
+      "@org-ayb2/everything": ["packages/everything/src/index.ts"],
+      "@org-ayb2/tooltip": ["packages/tooltip/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

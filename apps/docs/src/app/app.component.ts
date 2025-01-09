@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
-import { ButtonComponent } from '@org-ayb/button';
-import { TooltipComponent } from '@org-ayb/tooltip';
+import { ButtonComponent } from '@org-ayb2/button';
+import { TooltipComponent } from '@org-ayb2/tooltip';
 
 @Component({
   imports: [

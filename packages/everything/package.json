@@ -1,11 +1,15 @@
 {
-  "name": "@org-ayb/everything",
+  "name": "@org-ayb2/everything",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayoubkhial/nx-releases.git"
+  },
   "peerDependencies": {
     "@angular/common": "^19.0.0",
     "@angular/core": "^19.0.0",
-    "@org-ayb/button": "^0.8.0",
-    "@org-ayb/tooltip": "^0.8.0"
+    "@org-ayb2/button": "^0.0.0",
+    "@org-ayb2/tooltip": "^0.0.0"
   },
   "dependencies": {},
   "sideEffects": false
