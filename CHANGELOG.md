@@ -1,3 +1,13 @@
+## 0.8.1 (2025-01-09)
+
+### 🩹 Fixes
+
+- peer-deps ([d382baf](https://github.com/ayoubkhial/nx-releases/commit/d382baf))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.8.0 (2025-01-09)
 
 ### 🚀 Features
