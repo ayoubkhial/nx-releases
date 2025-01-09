@@ -11,6 +11,6 @@ export class ButtonComponent {
   title = 'hello !';
 
   ngOnInit() {
-    console.log('Button works!');
+    console.log('Button works!!');
   }
 }
