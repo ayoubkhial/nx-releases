@@ -1,3 +1,13 @@
+## 0.3.0 (2025-01-09)
+
+### 🚀 Features
+
+- mark button and tooltip packages as public ([0332559](https://github.com/ayoubkhial/nx-releases/commit/0332559))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.2.0 (2025-01-09)
 
 ### 🚀 Features
