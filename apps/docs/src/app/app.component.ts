@@ -16,5 +16,5 @@ import { TooltipComponent } from '@org-ayb/tooltip';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'docs';
+  title = 'docs!!!';
 }
