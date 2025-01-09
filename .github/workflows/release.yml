@@ -16,29 +16,3 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
-
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9.15.3
-
-      - name: Install Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          registry-url: https://registry.npmjs.org/
-          cache: 'pnpm'
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-        shell: bash
-
-      - name: Build affected libs
-        run: npx nx affected run-many --targets=build
-
-      - name: Run nx release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          git config user.email "ayoubcodez@gmail.com"
-          git config user.name "Ayoub Khial2"
-          npx nx release --skip-publish --verbose
