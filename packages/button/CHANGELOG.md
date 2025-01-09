@@ -1,3 +1,13 @@
+## 0.5.1 (2025-01-09)
+
+### 🩹 Fixes
+
+- add url property to packages ([1600468](https://github.com/ayoubkhial/nx-releases/commit/1600468))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.5.0 (2025-01-09)
 
 ### 🚀 Features

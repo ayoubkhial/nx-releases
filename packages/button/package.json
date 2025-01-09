@@ -1,6 +1,6 @@
 {
   "name": "@org-ayb/button",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "url": "https://github.com/ayoubkhial/nx-releases",
   "peerDependencies": {
     "@angular/common": "^19.0.0",

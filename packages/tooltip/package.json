@@ -1,6 +1,6 @@
 {
   "name": "@org-ayb/tooltip",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "url": "https://github.com/ayoubkhial/nx-releases",
   "peerDependencies": {
     "@angular/common": "^19.0.0",
