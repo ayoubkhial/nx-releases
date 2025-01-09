@@ -1,3 +1,20 @@
+## 0.7.0 (2025-01-09)
+
+### 🚀 Features
+
+- add-verbose ([ebf7e83](https://github.com/ayoubkhial/nx-releases/commit/ebf7e83))
+- use run-many instead of -all ([94380c1](https://github.com/ayoubkhial/nx-releases/commit/94380c1))
+
+### 🩹 Fixes
+
+- add github token to a release step ([a000fc4](https://github.com/ayoubkhial/nx-releases/commit/a000fc4))
+- add github user when releasing ([5058ee9](https://github.com/ayoubkhial/nx-releases/commit/5058ee9))
+- add github release action ([9dbc622](https://github.com/ayoubkhial/nx-releases/commit/9dbc622))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.6.0 (2025-01-09)
 
 ### 🚀 Features
