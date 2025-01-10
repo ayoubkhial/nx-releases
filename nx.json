@@ -72,6 +72,44 @@
   },
   "release": {
     "projects": ["packages/*"],
+    "conventionalCommits": {
+      "types": {
+        "feat": {
+          "changelog": {
+            "title": "New Features"
+          }
+        },
+        "fix": {
+          "changelog": {
+            "title": "Bug Fixes"
+          }
+        },
+        "docs": {
+          "semverBump": "none",
+          "changelog": {
+            "title": "Documentation"
+          }
+        },
+        "refactor": {
+          "semverBump": "none",
+          "changelog": {
+            "title": "Refactoring"
+          }
+        },
+        "build": {
+          "semverBump": "none",
+          "changelog": {
+            "title": "Build"
+          }
+        },
+        "test": {
+          "semverBump": "none",
+          "changelog": {
+            "title": "Tests"
+          }
+        }
+      }
+    },
     "changelog": {
       "workspaceChangelog": {
         "createRelease": "github"
