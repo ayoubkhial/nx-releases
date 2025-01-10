@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout the Release Branch and Fetch All Branches
+      # 1. Checkout Release Branch and Fetch All Branches
       - name: Checkout Release Branch and Fetch All
         uses: actions/checkout@v4
         with:
@@ -43,7 +43,7 @@ jobs:
 
       # 6. Build Affected Libraries
       - name: Build Affected Libraries
-        run: npx nx affected run-many --targets=build --base=main --head=HEAD
+        run: npx nx affected:build --base=main --head=HEAD
         shell: bash
 
       # 7. Run NX Release
