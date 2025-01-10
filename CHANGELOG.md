@@ -1,3 +1,13 @@
+## 0.3.0 (2025-01-10)
+
+### 🚀 Features
+
+- aaaa ([a869fc8](https://github.com/ayoubkhial/nx-releases/commit/a869fc8))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.2.0 (2025-01-09)
 
 ### 🚀 Features
