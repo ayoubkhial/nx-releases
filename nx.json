@@ -75,39 +75,54 @@
     "conventionalCommits": {
       "types": {
         "feat": {
+          "semverBump": "minor",
           "changelog": {
-            "title": "New Features"
+            "title": "✨ New Features"
           }
         },
         "fix": {
+          "semverBump": "patch",
           "changelog": {
-            "title": "Bug Fixes"
+            "title": "🐛 Bug Fixes"
           }
         },
         "docs": {
           "semverBump": "none",
           "changelog": {
-            "title": "Documentation"
+            "title": "📝 Documentation"
           }
         },
         "refactor": {
           "semverBump": "none",
           "changelog": {
-            "title": "Refactoring"
+            "title": "🔨 Refactoring"
           }
         },
         "build": {
           "semverBump": "none",
           "changelog": {
-            "title": "Build"
+            "title": "🛠️ Build"
+          }
+        },
+        "ci": {
+          "semverBump": "none",
+          "changelog": {
+            "title": "🔧 Continuous Integration"
+          }
+        },
+        "perf": {
+          "semverBump": "none",
+          "changelog": {
+            "title": "🚀 Performance Improvements"
           }
         },
         "test": {
           "semverBump": "none",
           "changelog": {
-            "title": "Tests"
+            "title": "🧪 Tests"
           }
-        }
+        },
+        "chore": { "semverBump": "none", "changelog": false }
       }
     },
     "changelog": {
