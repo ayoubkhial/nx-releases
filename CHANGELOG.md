@@ -1,3 +1,18 @@
+## 1.1.1 (2025-01-10)
+
+### 🐛 Bug Fixes
+
+- aaa ([6f7cc64](https://github.com/ayoubkhial/nx-releases/commit/6f7cc64))
+
+### 🔧 Continuous Integration
+
+- fix duplication ([e7573d1](https://github.com/ayoubkhial/nx-releases/commit/e7573d1))
+- fix yaml ([e2f51a9](https://github.com/ayoubkhial/nx-releases/commit/e2f51a9))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 1.1.0 (2025-01-10)
 
 ### ✨ New Features
