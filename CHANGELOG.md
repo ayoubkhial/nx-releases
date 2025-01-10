@@ -1,3 +1,13 @@
+## 1.1.2 (2025-01-10)
+
+### 🐛 Bug Fixes
+
+- ci ([f01238c](https://github.com/ayoubkhial/nx-releases/commit/f01238c))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 1.1.1 (2025-01-10)
 
 ### 🐛 Bug Fixes
