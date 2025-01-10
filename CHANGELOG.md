@@ -1,3 +1,25 @@
+## 1.1.0 (2025-01-10)
+
+### ✨ New Features
+
+- **button:** pnpm version missmatch ([7064a38](https://github.com/ayoubkhial/nx-releases/commit/7064a38))
+
+### 🐛 Bug Fixes
+
+- **everything:** bug fix ([650b417](https://github.com/ayoubkhial/nx-releases/commit/650b417))
+
+### 🔧 Continuous Integration
+
+- trigger release or releases branches ([b3791c1](https://github.com/ayoubkhial/nx-releases/commit/b3791c1))
+- fix ([445e93b](https://github.com/ayoubkhial/nx-releases/commit/445e93b))
+- fix ([7df700e](https://github.com/ayoubkhial/nx-releases/commit/7df700e))
+- fix2 ([596b1fd](https://github.com/ayoubkhial/nx-releases/commit/596b1fd))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+- ayoubkhial @ayoubkhial
+
 # 1.0.0 (2025-01-10)
 
 ### ✨ New Features
