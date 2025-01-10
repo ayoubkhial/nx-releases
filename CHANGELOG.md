@@ -1,3 +1,25 @@
+## 0.4.0 (2025-01-10)
+
+### New Features
+
+- bbbbb ([a462e96](https://github.com/ayoubkhial/nx-releases/commit/a462e96))
+
+### Bug Fixes
+
+- aaaa ([918927b](https://github.com/ayoubkhial/nx-releases/commit/918927b))
+
+### Refactoring
+
+- zerc ([1165e42](https://github.com/ayoubkhial/nx-releases/commit/1165e42))
+
+### Documentation
+
+- 333333 ([0f77272](https://github.com/ayoubkhial/nx-releases/commit/0f77272))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.3.0 (2025-01-10)
 
 ### 🚀 Features
