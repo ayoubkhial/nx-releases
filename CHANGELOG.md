@@ -1,3 +1,50 @@
+## 1.1.2 (2025-01-10)
+
+### 🐛 Bug Fixes
+
+- ci ([f01238c](https://github.com/ayoubkhial/nx-releases/commit/f01238c))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
+## 1.1.1 (2025-01-10)
+
+### 🐛 Bug Fixes
+
+- aaa ([6f7cc64](https://github.com/ayoubkhial/nx-releases/commit/6f7cc64))
+
+### 🔧 Continuous Integration
+
+- fix duplication ([e7573d1](https://github.com/ayoubkhial/nx-releases/commit/e7573d1))
+- fix yaml ([e2f51a9](https://github.com/ayoubkhial/nx-releases/commit/e2f51a9))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
+## 1.1.0 (2025-01-10)
+
+### ✨ New Features
+
+- **button:** pnpm version missmatch ([7064a38](https://github.com/ayoubkhial/nx-releases/commit/7064a38))
+
+### 🐛 Bug Fixes
+
+- **everything:** bug fix ([650b417](https://github.com/ayoubkhial/nx-releases/commit/650b417))
+
+### 🔧 Continuous Integration
+
+- trigger release or releases branches ([b3791c1](https://github.com/ayoubkhial/nx-releases/commit/b3791c1))
+- fix ([445e93b](https://github.com/ayoubkhial/nx-releases/commit/445e93b))
+- fix ([7df700e](https://github.com/ayoubkhial/nx-releases/commit/7df700e))
+- fix2 ([596b1fd](https://github.com/ayoubkhial/nx-releases/commit/596b1fd))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+- ayoubkhial @ayoubkhial
+
 # 1.0.0 (2025-01-10)
 
 ### ✨ New Features

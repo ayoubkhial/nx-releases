@@ -1,9 +1,11 @@
-name: Publish
+name: CI - Pull Request
 
+# Trigger the workflow on pull request events targeting the develop branch
 on:
-  push:
-    tags:
-      - 'v*.*.*'
+  pull_request:
+    branches:
+      - develop
+    types: [opened, reopened, synchronize]
 
 jobs:
   test:
@@ -32,14 +34,3 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
         shell: bash
-
-      - name: Print Environment Info
-        run: npx nx report
-        shell: bash
-
-      - name: Publish packages
-        run: npx nx release publish --verbose
-        shell: bash
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
-          NPM_CONFIG_PROVENANCE: true
