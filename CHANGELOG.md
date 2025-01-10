@@ -1,3 +1,17 @@
+# 1.0.0 (2025-01-10)
+
+### ✨ New Features
+
+- ⚠️  aaaaaa ([84abbbd](https://github.com/ayoubkhial/nx-releases/commit/84abbbd))
+
+### ⚠️  Breaking Changes
+
+- ⚠️  aaaaaa ([84abbbd](https://github.com/ayoubkhial/nx-releases/commit/84abbbd))
+
+### ❤️ Thank You
+
+- Ayoub KHIAL
+
 ## 0.4.0 (2025-01-10)
 
 ### New Features
