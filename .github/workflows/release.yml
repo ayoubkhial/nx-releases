@@ -1,37 +1,57 @@
 name: Release
 
-on: [workflow_dispatch]
+on:
+  push:
+    branches:
+      - 'release/*' # Triggers on any branch matching release/*
 
 jobs:
-  main:
+  release:
+    if: "! startsWith(github.event.head_commit.message, 'chore(release):')"
+
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout the main branch
+      # 1. Checkout Release Branch and Fetch All Branches
+      - name: Checkout Release Branch and Fetch All
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Fetch all history to enable changelog generation and branch comparison
           token: ${{ secrets.GH_TOKEN }}
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9.15.3
 
-      - name: Install Node
+      # 2. Fetch the Main Branch Explicitly
+      - name: Fetch Main Branch
+        run: git fetch origin main:main
+        shell: bash
+
+      # 3. Setup pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.3 # Specify the pnpm version you're using
+
+      # 4. Setup Node.js Environment
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          registry-url: https://registry.npmjs.org/
-          cache: 'pnpm'
+          node-version: '20' # Specify your Node.js version
+          registry-url: 'https://registry.npmjs.org/' # npm registry URL
+          cache: 'pnpm' # Enable pnpm caching for faster installs
 
-      - name: Install dependencies
+      # 5. Install Dependencies
+      - name: Install Dependencies
         run: pnpm install --frozen-lockfile
         shell: bash
 
-      - name: Build affected libs
-        run: npx nx affected run-many --targets=build
+      # 6. Build Affected Libraries
+      - name: Build Affected Libraries
+        run: npx nx affected:build --base=main --head=HEAD
+        shell: bash
 
-      - name: Run nx release
+      # 7. Run NX Release
+      - name: Run NX Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # Pass the GitHub token for authentication
         run: |
           git config user.email "ayoubcodez@gmail.com"
           git config user.name "Ayoub Khial2"
