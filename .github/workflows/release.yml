@@ -14,6 +14,10 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
+
+      - name: Fetch Main Branch
+        run: git fetch origin main:main
+        shell: bash
       - uses: pnpm/action-setup@v4
         with:
           version: 9.15.3
