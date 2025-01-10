@@ -12,6 +12,6 @@ export class ButtonComponent {
 
   ngOnInit() {
     console.log('Button works!!2423232dsd');
-    console.log('title', this.title + 'hhsd');
+    console.log('title', this.title + 'hhwsd');
   }
 }
